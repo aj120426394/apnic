@@ -1,0 +1,13 @@
+singleQuote: true
+trailingComma: all
+bracketSpacing: true
+insertPragma: false
+requirePragma: false
+proseWrap: preserve
+printWidth: 150
+semi: false
+arrowParens: "always"
+overrides:
+- files: "*.scss"
+  options:
+    singleQuote: false
