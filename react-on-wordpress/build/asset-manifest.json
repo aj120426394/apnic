@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.090aea80.css",
-    "main.js": "/static/js/main.c9cab5d8.js",
-    "main.js.map": "/static/js/main.c9cab5d8.js.map",
+    "main.css": "/static/css/main.css",
+    "main.js": "/static/js/main.js",
+    "main.js.map": "/static/js/main.js.map",
     "index.html": "/index.html",
-    "precache-manifest.b906595477a04637483116099bfbf9f5.js": "/precache-manifest.b906595477a04637483116099bfbf9f5.js",
+    "precache-manifest.23a288c3d2d3fc1dead907f1cad6abfe.js": "/precache-manifest.23a288c3d2d3fc1dead907f1cad6abfe.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.090aea80.css.map": "/static/css/main.090aea80.css.map",
-    "static/js/main.c9cab5d8.js.LICENSE.txt": "/static/js/main.c9cab5d8.js.LICENSE.txt"
+    "static/css/main.css.map": "/static/css/main.css.map",
+    "static/js/main.js.LICENSE.txt": "/static/js/main.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/css/main.090aea80.css",
-    "static/js/main.c9cab5d8.js"
+    "static/css/main.css",
+    "static/js/main.js"
   ]
 }

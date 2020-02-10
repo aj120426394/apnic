@@ -120,29 +120,31 @@ export class App extends React.Component<Props, State> {
   render() {
     const { currentPage, pageCount, editMode, editingList } = this.state
     return (
-      <Container className="apnic-react-in-wordpress">
-        {!editMode && (
-          <>
-            <Row>
-              <AppCol>
-                <Pagination currentPage={currentPage} pageCount={pageCount} onPaginationClick={this.onPaginationClick} />
-                <Button color="primary" onClick={this.onEditClick}>
-                  Edit
-                </Button>
-              </AppCol>
-            </Row>
-            <AppRow>{this.renderListItem()}</AppRow>
-          </>
-        )}
-        {editMode && (
-          <EditMode
-            list={editingList}
-            onDragEnd={this.onItemDragEnd}
-            onEditSaveClick={this.onEditSaveClick}
-            onEditCancelClick={this.onEditCancelClick}
-          />
-        )}
-      </Container>
+      <div className="apnic-react-in-wordpress">
+        <Container>
+          {!editMode && (
+            <>
+              <Row>
+                <AppCol>
+                  <Pagination currentPage={currentPage} pageCount={pageCount} onPaginationClick={this.onPaginationClick} />
+                  <Button color="primary" onClick={this.onEditClick}>
+                    Reorder
+                  </Button>
+                </AppCol>
+              </Row>
+              <AppRow>{this.renderListItem()}</AppRow>
+            </>
+          )}
+          {editMode && (
+            <EditMode
+              list={editingList}
+              onDragEnd={this.onItemDragEnd}
+              onEditSaveClick={this.onEditSaveClick}
+              onEditCancelClick={this.onEditCancelClick}
+            />
+          )}
+        </Container>
+      </div>
     )
   }
 }
