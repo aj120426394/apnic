@@ -8,6 +8,7 @@ import { Pagination } from '../components/Pagination/Pagination'
 import { Card } from '../components/Card/Card'
 import { EditMode } from './EditMode/EditMode'
 import { AppCol, AppRow } from '../components/OverwriteComponent/OverwirteComponent'
+import { WrapContainer } from './WrapContainer/WrapContainer'
 
 const URL = 'https://academy.apnic.net/wp-json/academy/virtual-labs'
 const MAX_CARD_ON_ONE_PAGE = 5
@@ -120,7 +121,7 @@ export class App extends React.Component<Props, State> {
   render() {
     const { currentPage, pageCount, editMode, editingList } = this.state
     return (
-      <div className="apnic-react-in-wordpress">
+      <WrapContainer wrapPrefix="apnic-react-in-wordpress">
         <Container>
           {!editMode && (
             <>
@@ -144,7 +145,7 @@ export class App extends React.Component<Props, State> {
             />
           )}
         </Container>
-      </div>
+      </WrapContainer>
     )
   }
 }

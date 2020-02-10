@@ -11,7 +11,7 @@ export const Card: React.FunctionComponent<Props> = ({item}) => (
   <BCard>
     <CardImg top width="100%" src={item.thumbnail} alt="Card image cap" />
     <CardBody>
-      <CardTitle>{item.name}</CardTitle>
+      <CardTitle><h3>{item.name}</h3></CardTitle>
       <CardText>{item.description}</CardText>
       <a href={item.viewDetailsURL} className="btn btn-secondary" target="_blank" rel="noopener noreferrer">
         View details

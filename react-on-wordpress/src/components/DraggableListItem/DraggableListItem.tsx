@@ -24,10 +24,10 @@ export const ListItemComponent: React.FunctionComponent<Props> = ({ item }) => (
   <ListItemContainer>
     <img src={item.thumbnail} alt="" />
     <DetailContainer>
-      <h5>
+      <h3>
         {' '}
         {item.name} ({item.formattedDuration})
-      </h5>
+      </h3>
       <p>{item.description}</p>
     </DetailContainer>
   </ListItemContainer>
