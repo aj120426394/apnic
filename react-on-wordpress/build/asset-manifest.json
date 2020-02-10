@@ -1,17 +1,16 @@
 {
   "files": {
-    "main.css": "/test/static/css/main.d1b05096.css",
-    "main.js": "/test/static/js/main.df82a570.js",
-    "main.js.map": "/test/static/js/main.df82a570.js.map",
-    "index.html": "/test/index.html",
-    "precache-manifest.2bcf62a196fc0e04a1944d1832fdeb7f.js": "/test/precache-manifest.2bcf62a196fc0e04a1944d1832fdeb7f.js",
-    "service-worker.js": "/test/service-worker.js",
-    "static/css/main.d1b05096.css.map": "/test/static/css/main.d1b05096.css.map",
-    "static/js/main.df82a570.js.LICENSE.txt": "/test/static/js/main.df82a570.js.LICENSE.txt",
-    "static/media/logo.svg": "/test/static/media/logo.5d5d9eef.svg"
+    "main.css": "/static/css/main.090aea80.css",
+    "main.js": "/static/js/main.c9cab5d8.js",
+    "main.js.map": "/static/js/main.c9cab5d8.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.b906595477a04637483116099bfbf9f5.js": "/precache-manifest.b906595477a04637483116099bfbf9f5.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.090aea80.css.map": "/static/css/main.090aea80.css.map",
+    "static/js/main.c9cab5d8.js.LICENSE.txt": "/static/js/main.c9cab5d8.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/css/main.d1b05096.css",
-    "static/js/main.df82a570.js"
+    "static/css/main.090aea80.css",
+    "static/js/main.c9cab5d8.js"
   ]
 }

@@ -2,7 +2,7 @@
   "name": "react-on-wordpress",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://localhost:80080/test",
+  "homepage": "http://localhost:8080/",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
@@ -28,7 +28,8 @@
     "start": "react-scripts start",
     "build": "react-app-rewired build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "wrapCSS": "postcss ./build/static/css/main.090aea80.css -o ./build/static/wrap/main.090aea80.css"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -46,6 +47,8 @@
     ]
   },
   "devDependencies": {
+    "postcss-cli": "^7.1.0",
+    "postcss-prefixwrap": "1.13.0",
     "react-app-rewire-disable-chunks": "^0.0.1",
     "react-app-rewired": "^2.1.5",
     "rewire": "^4.0.1"

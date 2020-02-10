@@ -120,7 +120,7 @@ export class App extends React.Component<Props, State> {
   render() {
     const { currentPage, pageCount, editMode, editingList } = this.state
     return (
-      <Container>
+      <Container className="apnic-react-in-wordpress">
         {!editMode && (
           <>
             <Row>
