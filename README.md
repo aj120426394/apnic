@@ -22,6 +22,8 @@
 2. Run `cp ./build/asset-manifest.json ../wordpress/wp-content/plugins/react-n-wordpress/asset-manifest/asset-manifest.json`
 3. Browse `localhost:8000`
 
+**If you want to host the react app at somewhere else. You need to edit the `publicPath` in `react-on-wordpress/config/webpack.config.js`. Replace `http://localhost:8080/` to your host path**
+
 
 
 ## Some thought
