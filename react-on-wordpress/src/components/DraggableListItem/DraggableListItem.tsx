@@ -13,7 +13,11 @@ const ListItemContainer = styled.div`
   color: white;
 `
 const DetailContainer = styled.div`
-  padding: 5px 0;
+  padding: 5px 10px;
+`
+
+const CustomizedImg = styled.img`
+  width: 100%;
 `
 
 type Props = {
@@ -22,10 +26,9 @@ type Props = {
 
 export const ListItemComponent: React.FunctionComponent<Props> = ({ item }) => (
   <ListItemContainer>
-    <img src={item.thumbnail} alt="" />
+    <CustomizedImg src={item.thumbnail} alt="" />
     <DetailContainer>
       <h3>
-        {' '}
         {item.name} ({item.formattedDuration})
       </h3>
       <p>{item.description}</p>

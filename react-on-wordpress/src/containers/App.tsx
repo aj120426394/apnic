@@ -11,7 +11,7 @@ import { AppCol, AppRow } from '../components/OverwriteComponent/OverwirteCompon
 import { WrapContainer } from './WrapContainer/WrapContainer'
 
 const URL = 'https://academy.apnic.net/wp-json/academy/virtual-labs'
-const MAX_CARD_ON_ONE_PAGE = 5
+const MAX_CARD_ON_ONE_PAGE = 6
 
 interface Props {}
 
